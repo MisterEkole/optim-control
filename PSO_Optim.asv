@@ -1,0 +1,12 @@
+close all; clear all;
+
+% 
+n_var = 3;
+lb = [0 0 0];
+ub = [1000 1000 500];
+
+%PSO Options
+options=optimoptions('particleswarm','SwarmSize',50,HybridFcn='fmincon',MaxIterations=100);
+
+x=particleswarm(itae_cost,lb,)
+
